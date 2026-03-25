@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(180deg, #0d1117 0%, #020202 100%);
+  color: #e6edf3;
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(1, 4, 9, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #1f2937;
+}
+
+.nav-link {
+  color: #9ca3af !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Hero */
+.hero {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #58a6ff, #2ea043);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  color: #9ca3af;
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1.1rem;
+}
+
+.btn-main {
+  background: linear-gradient(90deg, #238636, #2ea043);
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-main:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Section */
+.section {
+  padding: 80px 0;
+}
+
+/* Cards */
+.card {
+  background: #161b22 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 16px;
+  transition: 0.3s;
+  min-height: 500px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #58a6ff;
+}
+
+.card p {
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+/* Divider */
+.divider {
+  width: 60px;
+  height: 4px;
+  background: #2ea043;
+  margin: 10px auto 30px;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #1f2937;
+  padding: 20px 0;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+.card h5 {
+  color: #f0f6fc;
+  font-weight: 600;
+}
